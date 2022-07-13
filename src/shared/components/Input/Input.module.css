@@ -1,0 +1,16 @@
+.input {
+    background: none;
+    border: none;
+    color: var(--white);
+    height: 100%;
+    line-height: 22px;
+    outline: 0;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    font-family: var(--font-family);
+}
+
+.input::placeholder {
+    color: var(--white);
+}

@@ -1,0 +1,28 @@
+.CardList {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+  
+.Card:first-child {
+    margin-left: 0;
+}
+
+.Temperature {
+    font-size: 4rem;
+    padding-bottom: 10px;
+    width: 100%;
+    margin-left: 45%;
+}
+
+.Temperature::after {
+  content: "℃";
+}
+
+.cityName {
+    font-size: 4rem;
+    justify-content: center;
+    width: 100%;
+    margin-left: 45%;
+}

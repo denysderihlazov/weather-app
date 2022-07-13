@@ -1,0 +1,22 @@
+.header {
+    display:flex;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    color: var(--white);
+    font-size: 16px;
+    line-height: 20px;
+    justify-content: center;
+    padding: 25px 30px;
+    border-bottom: 1px solid var(--white);
+}
+
+.white_date{
+    color: var(--white);
+    font-weight: 800;
+}
+/*
+.search {
+    display: inline-block;
+    padding-left: 50px;
+    margin: auto;
+}*/

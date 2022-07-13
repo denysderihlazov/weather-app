@@ -1,0 +1,27 @@
+/* stylelint-disable order/properties-order */
+/* stylelint-disable indentation */
+
+.button {
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    font-size: 14px;
+    transition: all 0.25s;
+}
+
+.ghost {
+    background: none;
+    transition: all 0.25s;
+}
+
+.ghost:hover {
+    color: var(--white);
+    background-color: rgba(255,255,255,0.1);
+}
+
+.primary svg,
+.ghost:hover svg {
+    fill: var(--white);
+}
+

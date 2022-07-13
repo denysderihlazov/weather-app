@@ -1,0 +1,29 @@
+/* stylelint-disable order/properties-order */
+/* stylelint-disable indentation */
+
+.p {
+    margin: 0;
+}
+
+.s {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.m {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+
+.white {
+    color: var(--white);
+    font-weight: 800;
+}
+
+.xl {
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 600; 
+}

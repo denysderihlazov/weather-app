@@ -1,0 +1,13 @@
+.input {
+    min-width: 300px;
+}
+
+.button {
+    position: absolute;
+    width: 30px;
+    height: 35px;
+}
+
+.search {
+    border: 3px solid var(--white);
+}
